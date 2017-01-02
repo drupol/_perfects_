@@ -1,0 +1,29 @@
+{
+    "name": "drupol/perfectsbot",
+    "description": "Twitter bot tweeting when a new Perfect number is found.",
+    "homepage": "https://github.com/drupol/perfectsbots",
+    "keywords": ["twitter", "bot", "perfect numbers"],
+    "license": "GPL-2.0+",
+    "support": {
+        "issues": "https://github.com/drupol/perfectsbot/issues",
+        "source": "https://github.com/drupol/perfectsbot"
+    },
+    "authors": [
+        {
+            "name": "Pol Dellaiera",
+            "email": "pol.dellaiera@protonmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "drupol/phpermutations": "^1.0",
+        "abraham/twitteroauth": "^0.7.2",
+        "symfony/yaml": "^3.2",
+        "monolog/monolog": "^1.22"
+    },
+    "autoload": {
+        "psr-4": {
+            "drupol\\perfectsbot\\": "src/"
+        }
+    }
+}
